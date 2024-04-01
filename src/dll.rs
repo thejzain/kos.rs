@@ -4,6 +4,9 @@ use cstr_core::CStr;
 mod console;
 pub use console::Console;
 
+mod libimg;
+pub use libimg::Libimg;
+
 pub struct DLL {
     table: *const ImportTableEl,
 }
